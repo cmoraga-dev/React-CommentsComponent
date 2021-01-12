@@ -2,8 +2,7 @@ import React from "react";
 
 const UserCard = (props) => {
     var innerProps = props.children.props;
-//    console.log(props);
-
+    
     return (
         <div className = 'ui card'>
             <div className = 'content'>
